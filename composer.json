@@ -1,0 +1,28 @@
+{
+  "name": "ayoosuff/zfrapid-core",
+  "description": "Core classes for all ZFrapid tools ",
+  "license": "The MIT License (MIT)",
+  "homepage": "http://zfrapid.org",
+  "authors": [
+    {
+      "name": "Ralf Eggert",
+      "email": "ralf@travello.de",
+      "homepage": "http://www.travello.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "zfcampus/zf-console": "~1.3",
+    "zendframework/zend-i18n": "~2.7",
+    "zendframework/zend-filter": "^2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZFrapidCore\\": "src/"
+    }
+  }
+}
